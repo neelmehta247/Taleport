@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="We are on Facebook, Twitter and Google+"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView1"
+                android:gravity="center"
+                android:text="Like, Follow and Add us to your circles."
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/textView6"
+                android:gravity="center"
+                android:text="http://goo.gl/XFcHq3"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/textView2"
+                android:gravity="center"
+                android:text="http://goo.gl/YJ60VS"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/textView3"
+                android:gravity="center"
+                android:text="http://goo.gl/GpWFka"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/textView2"
+                android:layout_alignTop="@id/textView2"
+                android:layout_toLeftOf="@id/textView2"
+                android:src="@drawable/fb_logo" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/textView3"
+                android:layout_alignLeft="@id/imageView1"
+                android:layout_alignRight="@id/imageView1"
+                android:layout_alignTop="@id/textView3"
+                android:layout_toLeftOf="@id/textView3"
+                android:src="@drawable/twitter_logo" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/textView4"
+                android:layout_alignLeft="@+id/imageView2"
+                android:layout_alignRight="@id/imageView2"
+                android:layout_alignTop="@id/textView4"
+                android:layout_toLeftOf="@id/textView4"
+                android:src="@drawable/google_plus_logo" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

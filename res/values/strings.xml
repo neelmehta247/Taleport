@@ -1,0 +1,46 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <string name="app_name">Taleport</string>
+
+    <string-array name="planets_array">
+        <item>Home</item>
+        <item>Travel</item>
+        <item>Profiles</item>
+        <item>History</item>
+        <item>Cultures</item>
+        <item>Issues</item>
+        <item>Initiatives</item>
+        <item>Photo Essay</item>
+        <item>Satire</item>
+        <item>Discussion</item>
+        <item>Blog</item>
+        <item>Submit A Story</item>
+        <item>Our Team</item>
+        <item>Feedback</item>
+        <item>Contact Us</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Refresh</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="wings">To order "Wings Of Dwarka", mail us at:</string>
+    <string name="version">Happenstance Media is, as the name partly suggests, a media firm. It was created to give credence to a group of people who have a passion for stories, who would like to be storytellers and encourage ordinary people to do the same.\nFor we believe, that it is our stories that make us extraordinary. And what could be a better way to bring together different journeys onto the same platform than create an e-zine for people who would want to be the raconteurs of their own lives. Hence, Taleport (pronounced as ‘teleport’) magazine is majorly a collection of human interest stories, which will be produced on a monthly basis.</string>
+
+</resources>
